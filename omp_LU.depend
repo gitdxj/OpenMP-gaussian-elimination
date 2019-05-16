@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1557547286 source:c:\users\frank lee\codeblocksproject\omp_lu\matrix.cpp
+	"matrix.h"
+
+1557384350 c:\users\frank lee\codeblocksproject\omp_lu\matrix.h
+	<iostream>
+	<cstdlib>
+	<iomanip>
+	<algorithm>
+	<time.h>
+	<x86intrin.h>
+
+1557976764 source:c:\users\frank lee\codeblocksproject\omp_lu\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<omp.h>
+
