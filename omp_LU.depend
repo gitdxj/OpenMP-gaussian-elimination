@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1557547286 source:c:\users\frank lee\codeblocksproject\omp_lu\matrix.cpp
+1558116866 source:c:\users\frank lee\codeblocksproject\omp_lu\matrix.cpp
 	"matrix.h"
 
-1557384350 c:\users\frank lee\codeblocksproject\omp_lu\matrix.h
+1558116927 c:\users\frank lee\codeblocksproject\omp_lu\matrix.h
 	<iostream>
 	<cstdlib>
 	<iomanip>
@@ -10,8 +10,19 @@
 	<time.h>
 	<x86intrin.h>
 
-1557976764 source:c:\users\frank lee\codeblocksproject\omp_lu\main.cpp
+1558212790 source:c:\users\frank lee\codeblocksproject\omp_lu\main.cpp
+	<iostream>
+	<fstream>
 	<stdio.h>
 	<stdlib.h>
 	<omp.h>
+	"omp_lu.h"
+
+1558135035 c:\users\frank lee\codeblocksproject\omp_lu\omp_lu.h
+	<omp.h>
+	<windows.h>
+	"matrix.h"
+
+1558213333 source:c:\users\frank lee\codeblocksproject\omp_lu\omp_lu.cpp
+	"omp_lu.h"
 

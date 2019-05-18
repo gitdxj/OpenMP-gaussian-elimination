@@ -35,6 +35,8 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="matrix.cpp" />
 		<Unit filename="matrix.h" />
+		<Unit filename="omp_lu.cpp" />
+		<Unit filename="omp_lu.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

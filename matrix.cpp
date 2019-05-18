@@ -19,7 +19,15 @@ void copy_matrix(float** dst, float** src, int N)
             dst[i][j] = src[i][j];
 }
 
-
+/**判断两个矩阵的值是否相同**/
+bool ls_same(float **a, float**b, int N)
+{
+    for(int i = 0; i<N; i++)
+        for(int j = 0; j<N; j++)
+            if(a[i][j] != b[i][j])
+                return false;
+    return true;
+}
 
 /**向控制台打印矩阵**/
 void show_matrix(float **Matrix, int N)

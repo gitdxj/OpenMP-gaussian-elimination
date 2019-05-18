@@ -10,6 +10,7 @@
 
 void matrix_initialize(float **Matrix, int N, int scale = 10);  // 为矩阵元素赋随机值，范围默认取0~10
 void copy_matrix(float** dst, float** src, int N);  // 将src矩阵的值copy到dst中
+bool ls_same(float **a, float**b, int N);  // 判断两个方阵是否相等
 void show_matrix(float **Matrix, int N);  // 在控制台打印矩阵
 bool swap_rows(float **Matrix, int N, int k);  // 当使用高斯消去法时若A(k,k)为0则从下面的行中找出从k列不为0的一行和k行互换
 void gaussian_elimination_lu(float**Matrix, int N);  // 标准的LU高斯消去法算法
